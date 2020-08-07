@@ -1,0 +1,64 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+a:link a:visited{
+    color: grey;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    padding-top: 30px;
+}
+#header{
+    display: flex;
+}
+#logo{
+    width: 170px;
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+#global{
+    flex-grow: 1;
+    text-align: right;
+    font-weight: 600;
+}
+#global ul{
+    list-style: none;
+}
+#global ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#global ul li a:link, #global ul li a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+#global ul li a:hover{
+    color:lightgray;
+    text-decoration: none;
+}
+
+#navigation{
+    background-color: #4b4b4b;
+    padding: 1px 0;
+}
+#navigation ul li a:link, #navigation ul li a:visited{
+    color: white;
+    text-decoration: none;
+    padding-left: 85px;
+}
+#navigation ul li a:hover{
+    color: lightgray;
+}
+#navigation ul{
+    list-style: none;
+}
+#navigation ul li{
+    display: inline;
+}
